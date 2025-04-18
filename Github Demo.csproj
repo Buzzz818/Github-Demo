@@ -80,6 +80,8 @@
     </Compile>
     <Compile Include="LeetCode1.cs" />
     <Compile Include="LeetCode2.cs" />
+    <Compile Include="LeetCode3.cs" />
+    <Compile Include="LeetCode4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
