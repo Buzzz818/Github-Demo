@@ -11,6 +11,21 @@ namespace Github_Demo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            btnSolution68.Style.Add("background-color", "#A67C84");
+            btnSolution68.Style.Add("color", "white");
+            btnSolution68.Style.Add("border-color", "#A67C84");
+
+            btnSolution123.Style.Add("background-color", "#99AABF");
+            btnSolution123.Style.Add("color", "white");
+            btnSolution123.Style.Add("border-color", "#99AABF");
+
+            btnSolution3382.Style.Add("background-color", "#B4BFB5");
+            btnSolution3382.Style.Add("color", "white");
+            btnSolution3382.Style.Add("border-color", "#B4BFB5");
+
+            btnSolution420.Style.Add("background-color", "#808C74");
+            btnSolution420.Style.Add("color", "white");
+            btnSolution420.Style.Add("border-color", "#808C74");
 
         }
         protected void btnClear_Click(object sender, EventArgs e)
@@ -58,7 +73,41 @@ Test Case 3: [{string.Join(", ", testCase3)}]
 
         protected void btnSolution123_Click(object sender, EventArgs e)
         {
-            lblSolutionText.Text = "Solution #123: Use binary search to partition arrays and find median.";
+            var testCase = new LeetCode123();
+            var testCase1 = testCase.Solution(new int[] { 3, 3, 5, 0, 0, 3, 1, 4 });
+            var testCase2 = testCase.Solution(new int[] { 1, 2, 3, 4, 5 });
+            var testCase3 = testCase.Solution(new int[] { 7, 6, 4, 3, 1 });
+            lblSolutionText.Text = $@"
+<h3>123. Best Time to Buy and Sell Stock III</h3>
+Given an array prices where prices[i] is the price of a given stock on the ith day, find the maximum profit you can achieve. You may complete <b>at most two transactions</b>.<br /><br />
+<b>Note:</b> You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
+<br/>
+<br/>
+Test Case 1: prices = [3, 3, 5, 0, 0, 3, 1, 4]
+|
+Test Case 2: prices = [1, 2, 3, 4, 5]
+|
+Test Case 3: prices = [7, 6, 4, 3, 1]
+<br/>
+<br/>
+<h3>Results</h3>
+<br/>
+Test Case 1: {testCase1}
+<br/>
+Explanation:</b> Buy on day 4 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3. Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
+<br/>
+<br/>
+Test Case 2: {testCase2}
+<br/>
+Explanation:</b> Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4. Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are engaging multiple transactions at the same time. You must sell before buying again.
+<br/>
+<br/>
+Test Case 3: {testCase3}
+<br/>
+Explanation:</b> In this case, no transaction is done, i.e., max profit = 0.
+";
+
+
         }
 
         protected void btnSolution3382_Click(object sender, EventArgs e)
