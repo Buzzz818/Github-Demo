@@ -51,22 +51,22 @@ namespace Github_Demo
         protected global::System.Web.UI.WebControls.Button btnSolution123;
 
         /// <summary>
-        /// btnSolution3382 control.
+        /// btnSolution2338 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSolution3382;
+        protected global::System.Web.UI.WebControls.Button btnSolution2338;
 
         /// <summary>
-        /// btnSolution420 control.
+        /// btnSolution51 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSolution420;
+        protected global::System.Web.UI.WebControls.Button btnSolution51;
 
         /// <summary>
         /// lblSolutionText control.

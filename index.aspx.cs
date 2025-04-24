@@ -19,13 +19,13 @@ namespace Github_Demo
             btnSolution123.Style.Add("color", "white");
             btnSolution123.Style.Add("border-color", "#99AABF");
 
-            btnSolution3382.Style.Add("background-color", "#B4BFB5");
-            btnSolution3382.Style.Add("color", "white");
-            btnSolution3382.Style.Add("border-color", "#B4BFB5");
+            btnSolution2338.Style.Add("background-color", "#B4BFB5");
+            btnSolution2338.Style.Add("color", "white");
+            btnSolution2338.Style.Add("border-color", "#B4BFB5");
 
-            btnSolution420.Style.Add("background-color", "#808C74");
-            btnSolution420.Style.Add("color", "white");
-            btnSolution420.Style.Add("border-color", "#808C74");
+            btnSolution51.Style.Add("background-color", "#808C74");
+            btnSolution51.Style.Add("color", "white");
+            btnSolution51.Style.Add("border-color", "#808C74");
 
         }
         protected void btnClear_Click(object sender, EventArgs e)
@@ -56,7 +56,7 @@ Test Case 1: words =
 |
 Test Case 2: words =
 [""What"",""must"",""be"",""acknowledgment"",""shall"",""be""]
-|
+|s
 Test Case 3: words =
 [""Science"",""is"",""what"",""we"",""understand"",""well"",""enough"",""to"",""explain"",""to"",""a"",""computer."",""Art"",""is"",""everything"",""else"",""we"",""do""]
 <br/>
@@ -110,14 +110,14 @@ Explanation:</b> In this case, no transaction is done, i.e., max profit = 0.
 
         }
 
-        protected void btnSolution3382_Click(object sender, EventArgs e)
+        protected void btnSolution2338_Click(object sender, EventArgs e)
         {
-            lblSolutionText.Text = "Solution #3382: Optimized linear approach with O(m+n) complexity.";
+            lblSolutionText.Text = "Solution #2338: Optimized linear approach with O(m+n) complexity.";
         }
 
-        protected void btnSolution420_Click(object sender, EventArgs e)
+        protected void btnSolution51_Click(object sender, EventArgs e)
         {
-            lblSolutionText.Text = "Solution #420: Brute force - combine, sort, and compute median.";
+            lblSolutionText.Text = "Solution #51: Brute force - combine, sort, and compute median.";
         }        
     }
 }

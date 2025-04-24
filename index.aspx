@@ -27,8 +27,8 @@
                 <asp:Button ID="btnClear" runat="server" Text="Clear Leetcode Solution" CssClass="btn btn-outline-secondary" OnClick="btnClear_Click" />
                 <asp:Button ID="btnSolution68" runat="server" Text="Solution #68" CssClass="btn btn-success" OnClick="btnSolution68_Click" />
                 <asp:Button ID="btnSolution123" runat="server" Text="Solution #123" CssClass="btn btn-info" OnClick="btnSolution123_Click" />
-                <asp:Button ID="btnSolution3382" runat="server" Text="Solution #3382" CssClass="btn btn-warning" OnClick="btnSolution3382_Click" />
-                <asp:Button ID="btnSolution420" runat="server" Text="Solution #420" CssClass="btn btn-danger" OnClick="btnSolution420_Click" />
+                <asp:Button ID="btnSolution2338" runat="server" Text="Solution #2338" CssClass="btn btn-warning" OnClick="btnSolution2338_Click" />
+                <asp:Button ID="btnSolution51" runat="server" Text="Solution #51" CssClass="btn btn-danger" OnClick="btnSolution51_Click" />
                 
             </div>
 

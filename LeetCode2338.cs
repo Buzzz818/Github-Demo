@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Github_Demo
 {
-    public class LeetCode2
+    public class LeetCode2338
     {
         public int IdealArrays(int n, int maxValue)
         {

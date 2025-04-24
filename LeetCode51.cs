@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Github_Demo
 {
-    public class LeetCode3
+    public class LeetCode51
     {
         public IList<IList<string>> SolveNQueens(int n)
         {
