@@ -1,4 +1,20 @@
-﻿using System;
+﻿/*File Name: LeetCode68
+
+*Name: Gabe Galiatsatos
+*email: galiatgg@mail.uc.edu
+*Assignment Number: Final Project  
+*Due Date: 4/29/2025
+*Course #/Section:   001
+* Semester / Year:   Spring 2025
+*Brief Description of the assignment:  Create a bootstrapped webpage to showcase 4 different leetcode
+*solutions 
+
+*Brief Description of what this module does. This is the class for LeetCode68
+**Citations: https://chatgpt.com/
+*Anything else that's relevant: 
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +22,15 @@ using System.Web;
 
 namespace Github_Demo
 {
+    // Solution to LeetCode68
     public class LeetCode68
     {
+        /// <summary>
+        /// Justifies strings to a given max width of line
+        /// </summary>
+        /// <param name="words"> an array of string values </param>
+        /// <param name="maxWidth"> max width for a string</param>
+        /// <returns> Justified array of the given string values to the max width </returns>
         public IList<string> FullJustify(string[] words, int maxWidth)
         {
             var result = new List<string>();

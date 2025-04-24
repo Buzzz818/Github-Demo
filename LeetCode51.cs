@@ -1,12 +1,34 @@
-﻿using System;
+﻿/*File Name: LeetCode51.cs
+
+*Name: Brad Caldwell
+
+*email: caldwebf@mail.uc.edu
+*Assignment Number: Final Project  
+*Due Date: 4/29/2025
+*Course #/Section:   001
+* Semester / Year:   Spring 2025
+*Brief Description of the assignment:  Create a bootstrapped webpage to showcase 4 different leetcode
+*solutions 
+
+*Brief Description of what this module does. This is the class for LeetCode51
+*Citations: https://chatgpt.com/
+*Anything else that's relevant: 
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
 namespace Github_Demo
-{
+{   
+     // Solution to LeetCode51
     public class LeetCode51
     {
+        /// <summary>
+        /// Finds all possible placements of n queens on an n x n grid
+        /// </summary>
+        /// <param name="n"> the number of queens and dimmension of grid</param>
+        /// <returns> all possible solutions to where no queen can attack another</returns>
         public IList<IList<string>> SolveNQueens(int n)
         {
             var result = new List<IList<string>>();
