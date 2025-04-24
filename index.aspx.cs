@@ -117,7 +117,43 @@ Explanation:</b> In this case, no transaction is done, i.e., max profit = 0.
 
         protected void btnSolution51_Click(object sender, EventArgs e)
         {
-            lblSolutionText.Text = "Solution #51: Brute force - combine, sort, and compute median.";
-        }        
+            var testCase = new LeetCode51();
+            var testCase1 = testCase.SolveNQueens(4);
+            var testCase2 = testCase.SolveNQueens(1);
+
+            string FormatBoard(IList<IList<string>> boards)
+            {
+                var formatted = "";
+                for (int i = 0; i < boards.Count; i++)
+                {
+                    formatted += $"Solution {i + 1}:<br/>{string.Join("<br/>", boards[i])}<br/><br/>";
+                }
+                return formatted;
+            }
+
+            lblSolutionText.Text = $@"
+<h3>51. N-Queens</h3>
+The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.<br /><br />
+Each solution contains a distinct board configuration of the n-queens' placement, where 'Q' and '.' both indicate a queen and an empty space, respectively.
+<br/><br/>
+<b>Note:</b><br />
+- A queen can attack another queen if they share the same row, column, or diagonal.<br />
+- The goal is to find all valid configurations for placing n queens on an n x n board such that no two threaten each other.<br />
+- The solution uses backtracking to try all possible positions row-by-row.
+<br/><br/>
+<b>Test Case 1:</b> n = 4 |
+<b>Test Case 2:</b> n = 1
+<br/><br/>
+<h3>Results</h3>
+<br/>
+<b>Test Case 1 (n = 4):</b><br/>
+{FormatBoard(testCase1)}
+Explanation: There are 2 valid solutions for a 4x4 board. Each solution ensures that no two queens attack each other horizontally, vertically, or diagonally. The queens are placed carefully in different rows, columns, and diagonals.<br/><br/>
+
+<b>Test Case 2 (n = 1):</b><br/>
+{FormatBoard(testCase2)}
+Explanation: There's only one possible way to place a queen on a 1x1 board — simply put the queen in the only available spot.
+";
+        }
     }
 }
