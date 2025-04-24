@@ -1,5 +1,29 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Github_Demo.index" %>
 
+<!-- *File Name: index.aspx
+
+*Name: Blake Miller 
+*      Brad Caldwell
+*      Co Nguyen
+*      Gabe Galiatsatos
+*      
+*email:  mille7be@mail.uc.edu
+*        caldwebf@mail.uc.edu
+*        nguye2co@mail.uc.edu
+*        galiatgg@mail.uc.edu
+
+*Assignment Number: Final Project  
+*Due Date: 4/29/2025
+*Course #/Section:   001
+* Semester / Year:   Spring 2025
+*Brief Description of the assignment:  Create a bootstrapped webpage to showcase 4 different leetcode
+*solutions 
+
+*Brief Description of what this module does: This is the base html page for our project
+*Citations: https://chatgpt.com/. https://gemini.google.com/app
+*Anything else that's relevant: 
+*/ -->
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">

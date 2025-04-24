@@ -1,12 +1,37 @@
-﻿using System;
+﻿/*File Name: LeetCode2338.cs
+
+*Name: Blake Miller 
+*
+*email:  mille7be@mail.uc.edu
+*Assignment Number: Final Project  
+*Due Date: 4/29/2025
+*Course #/Section:   001
+* Semester / Year:   Spring 2025
+*Brief Description of the assignment:  Create a bootstrapped webpage to showcase 4 different leetcode
+*solutions 
+
+*Brief Description of what this module does: This is the class for LeetCode2338 
+*Citations: https://chatgpt.com/
+*Anything else that's relevant: 
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
 namespace Github_Demo
 {
+    // Solution to LeetCode2338
     public class LeetCode2338
     {
+        /// <summary>
+        /// Measures the total number of possible arrays based on parameter n and maxvalue
+        /// </summary>
+        /// <param name="n"> the length of the array </param>
+        /// <param name="maxValue"> the max number allowed within the array</param>
+        /// <returns> The total amount of possible arrays given size and max value</returns>
         public int IdealArrays(int n, int maxValue)
         {
             const int MOD = 1000000007;
