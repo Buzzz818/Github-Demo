@@ -116,7 +116,7 @@ Explanation:</b> In this case, no transaction is done, i.e., max profit = 0.
             var testCase1 = testCase.IdealArrays(2,5);
             var testCase2 = testCase.IdealArrays(5,3);
             lblSolutionText.Text = $@"
-<h3>Solution #2338: Count the Number of Ideal Arrays</h3>
+<h3>2338. Count the Number of Ideal Arrays</h3>
 <br/>
 You are given two integers n and maxValue, which are used to describe an ideal array.
 <br/>
